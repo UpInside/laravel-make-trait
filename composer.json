@@ -1,0 +1,21 @@
+{
+  "name": "upinside/laravel-make-trait",
+  "description": "Create trait in Laravel with the artisan command",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gustavo Web",
+      "email": "gustavo@upinside.com.br"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "UpInside\\LaravelMakeTrait\\": "src/"
+    }
+  }
+}
